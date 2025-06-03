@@ -1,0 +1,112 @@
+{
+    "appName": "Tracker Configuration Manager",
+    "loadingApp": "Loading application...",
+    "authenticating": "Authenticating...",
+    "login": {
+        "title": "Tracker Dashboard",
+        "prompt": "Sign in with your Yandex account to continue",
+        "button": "Sign in with Yandex",
+        "welcome": "Welcome, {{name}}!",
+        "authFailed": "Authentication failed: {{details}}",
+        "authFailedGeneric": "Authentication failed. Please try again."
+    },
+    "dashboard": {
+        "welcomeUser": "Welcome, {{name}}",
+        "logout": "Logout",
+        "whatToDo": "What would you like to do?",
+        "chooseAction": "Choose an action to manage your tracker configurations",
+        "exportConfigTitle": "Export Configuration",
+        "exportConfigDescription": "Download queue configurations as a .ytexp file for backup or migration",
+        "exportFeature1": "Select organization and queues",
+        "exportFeature2": "Download configuration file",
+        "exportFeature3": "Use for backup or migration",
+        "importConfigTitle": "Import Configuration",
+        "importConfigDescription": "Upload and apply queue configurations from a .ytexp file",
+        "importFeature1": "Select target organization",
+        "importFeature2": "Upload configuration file",
+        "importFeature3": "Apply configurations automatically",
+        "backToMainMenu": "Back to main menu"
+    },
+    "errorBoundary": {
+        "title": "Something went wrong",
+        "message": "The application encountered an unexpected error. Please refresh the page to try again.",
+        "refreshButton": "Refresh Page",
+        "errorDetails": "Error Details"
+    },
+    "toast": {
+        "errorAutoDismiss": "This message will auto-dismiss in {{seconds}} seconds",
+        "dismissNotificationAria": "Dismiss notification",
+        "loggedOut": "You have been logged out.",
+        "exportSuccess": "Configuration exported successfully: {{filename}}",
+        "exportFailed": "Export failed: {{details}}",
+        "exportFilenameError": "Export failed: Filename could not be determined from response headers.",
+        "exportHeaderMissing": "Export failed: Content-Disposition header missing in response.",
+        "importSuccess": "Import successful: {{count}} configuration(s) imported.",
+        "importCompleted": "Import completed: {{successCount}} success, {{failCount}} failed.",
+        "importNoConfigsFound": "Import file processed, but no configurations were found or applied.",
+        "importFailed": "Import failed: {{details}}",
+        "selectOrg": "Please select an organization.",
+        "selectQueues": "Please select at least one queue to export.",
+        "selectFile": "Please select a .ytexp file to import.",
+        "selectZipFile": "Please select a .ytexp file.",
+        "selectOrgForImport": "Please select an organization for import.",
+        "selectOrgToViewQueues": "Please select an organization to view available queues for export.",
+        "selectOrgForImportTarget": "Please select an organization where you want to import the configurations.",
+        "queuesLoadingError": "Failed to load queues: {{details}}",
+        "orgsLoadingError": "Failed to load organizations: {{details}}",
+        "sessionExpired": "Session expired. Please log in again."
+    },
+    "organizationSelector": {
+        "selectOrg": "Select Organization",
+        "label": "Organization",
+        "loading": "Loading organizations...",
+        "placeholder": "Select an organization",
+        "noOrganizations": "No organizations available",
+        "error": "Error loading organizations: {{details}}"
+    },
+    "queueSelector": {
+        "label": "Queues",
+        "selectAll": "Select All",
+        "deselectAll": "Deselect All",
+        "loading": "Loading queues...",
+        "error": "Error: {{details}}",
+        "noQueues": "No queues found for this organization.",
+        "queuesSelected": "{{count}} queue selected",
+        "queuesSelected_plural": "{{count}} queues selected"
+    },
+    "exportSection": {
+        "title": "Export Configuration",
+        "selectQueuesPrompt": "Choose which queues to include in your export",
+        "readyToExport": "Ready to export?",
+        "noQueuesSelected": "No queues selected",
+        "exportButton": "Export Configuration",
+        "exportingButton": "Exporting...",
+        "warningSelectQueue": "Please select at least one queue to export"
+    },
+    "importSection": {
+        "title": "Import Configuration",
+        "uploadPrompt": "Select a .ytexp file containing the configurations to import",
+        "fileInputLabel": "Configuration File",
+        "fileDragPrompt": "Click to upload",
+        "fileDropPrompt": "drag and drop",
+        "fileSelected": "File: {{filename}} selected",
+        "noFileSelected": "No file selected",
+        "importantNotesTitle": "Important Notes",
+        "noteOverwrite": "Existing configurations with the same key will be overwritten",
+        "noteBackup": "Make sure to backup current configurations before importing",
+        "noteLargeFile": "Import process may take several minutes for large files",
+        "readyToImport": "Ready to import?",
+        "importButton": "Import Configuration",
+        "importingButton": "Importing...",
+        "warningSelectOrg": "Please select an organization",
+        "warningSelectFile": "Please select a file to import"
+    },
+    "loadingSpinner": {
+        "defaultText": "Loading..."
+    },
+    "common": {
+        "back": "Back",
+        "details": "Details",
+        "orConjunction": "or"
+    }
+}

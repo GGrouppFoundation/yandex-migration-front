@@ -1,0 +1,113 @@
+{
+    "appName": "Менеджер конфигураций Трекера",
+    "loadingApp": "Загрузка приложения...",
+    "authenticating": "Аутентификация...",
+    "login": {
+        "title": "Панель управления Трекера",
+        "prompt": "Войдите с помощью Яндекс ID, чтобы продолжить",
+        "button": "Войти с Яндекс ID",
+        "welcome": "Добро пожаловать, {{name}}!",
+        "authFailed": "Ошибка аутентификации: {{details}}",
+        "authFailedGeneric": "Ошибка аутентификации. Пожалуйста, попробуйте еще раз."
+    },
+    "dashboard": {
+        "welcomeUser": "Добро пожаловать, {{name}}",
+        "logout": "Выйти",
+        "whatToDo": "Что бы вы хотели сделать?",
+        "chooseAction": "Выберите действие для управления конфигурациями трекера",
+        "exportConfigTitle": "Экспорт конфигурации",
+        "exportConfigDescription": "Скачайте конфигурации очередей в виде файла .ytexp для резервного копирования или миграции",
+        "exportFeature1": "Выберите организацию и очереди",
+        "exportFeature2": "Скачайте файл конфигурации",
+        "exportFeature3": "Используйте для резервного копирования или миграции",
+        "importConfigTitle": "Импорт конфигурации",
+        "importConfigDescription": "Загрузите и примените конфигурации очередей из файла .ytexp",
+        "importFeature1": "Выберите целевую организацию",
+        "importFeature2": "Загрузите файл конфигурации",
+        "importFeature3": "Автоматически примените конфигурации",
+        "backToMainMenu": "Вернуться в главное меню"
+    },
+    "errorBoundary": {
+        "title": "Что-то пошло не так",
+        "message": "В приложении произошла непредвиденная ошибка. Пожалуйста, обновите страницу, чтобы попробовать снова.",
+        "refreshButton": "Обновить страницу",
+        "errorDetails": "Детали ошибки"
+    },
+    "toast": {
+        "errorAutoDismiss": "Это сообщение автоматически закроется через {{seconds}} секунд",
+        "dismissNotificationAria": "Закрыть уведомление",
+        "loggedOut": "Вы вышли из системы.",
+        "exportSuccess": "Конфигурация успешно экспортирована: {{filename}}",
+        "exportFailed": "Ошибка экспорта: {{details}}",
+        "exportFilenameError": "Ошибка экспорта: Не удалось определить имя файла из заголовков ответа.",
+        "exportHeaderMissing": "Ошибка экспорта: Заголовок Content-Disposition отсутствует в ответе.",
+        "importSuccess": "Импорт успешен: {{count}} конфигурация(и) импортирована.",
+        "importCompleted": "Импорт завершен: {{successCount}} успешно, {{failCount}} с ошибками.",
+        "importNoConfigsFound": "Файл импорта обработан, но конфигурации не найдены или не применены.",
+        "importFailed": "Ошибка импорта: {{details}}",
+        "selectOrg": "Пожалуйста, выберите организацию.",
+        "selectQueues": "Пожалуйста, выберите хотя бы одну очередь для экспорта.",
+        "selectFile": "Пожалуйста, выберите файл .ytexp для импорта.",
+        "selectZipFile": "Пожалуйста, выберите файл .ytexp.",
+        "selectOrgForImport": "Пожалуйста, выберите организацию для импорта.",
+        "selectOrgToViewQueues": "Пожалуйста, выберите организацию для просмотра доступных очередей для экспорта.",
+        "selectOrgForImportTarget": "Пожалуйста, выберите организацию, в которую вы хотите импортировать конфигурации.",
+        "queuesLoadingError": "Не удалось загрузить очереди: {{details}}",
+        "orgsLoadingError": "Не удалось загрузить организации: {{details}}",
+        "sessionExpired": "Сессия истекла. Пожалуйста, войдите снова."
+    },
+    "organizationSelector": {
+        "selectOrg": "Выберите организацию",
+        "label": "Организация",
+        "loading": "Загрузка организаций...",
+        "placeholder": "Выберите организацию",
+        "noOrganizations": "Нет доступных организаций",
+        "error": "Ошибка загрузки организаций: {{details}}"
+    },
+    "queueSelector": {
+        "label": "Очереди",
+        "selectAll": "Выбрать все",
+        "deselectAll": "Снять выделение",
+        "loading": "Загрузка очередей...",
+        "error": "Ошибка: {{details}}",
+        "noQueues": "Очереди для этой организации не найдены.",
+        "queuesSelected_one": "{{count}} очередь выбрана",
+        "queuesSelected_few": "{{count}} очереди выбрано",
+        "queuesSelected_many": "{{count}} очередей выбрано"
+    },
+    "exportSection": {
+        "title": "Экспорт конфигурации",
+        "selectQueuesPrompt": "Выберите, какие очереди включить в экспорт",
+        "readyToExport": "Готовы к экспорту?",
+        "noQueuesSelected": "Очереди не выбраны",
+        "exportButton": "Экспортировать конфигурацию",
+        "exportingButton": "Экспорт...",
+        "warningSelectQueue": "Пожалуйста, выберите хотя бы одну очередь для экспорта"
+    },
+    "importSection": {
+        "title": "Импорт конфигурации",
+        "uploadPrompt": "Выберите файл .ytexp, содержащий конфигурации для импорта",
+        "fileInputLabel": "Файл конфигурации",
+        "fileDragPrompt": "Нажмите для загрузки",
+        "fileDropPrompt": "перетащите файл",
+        "fileSelected": "Выбран файл: {{filename}}",
+        "noFileSelected": "Файл не выбран",
+        "importantNotesTitle": "Важные замечания",
+        "noteOverwrite": "Существующие конфигурации с тем же ключом будут перезаписаны",
+        "noteBackup": "Перед импортом убедитесь, что вы создали резервную копию текущих конфигураций",
+        "noteLargeFile": "Процесс импорта может занять несколько минут для больших файлов",
+        "readyToImport": "Готовы к импорту?",
+        "importButton": "Импортировать конфигурацию",
+        "importingButton": "Импорт...",
+        "warningSelectOrg": "Пожалуйста, выберите организацию",
+        "warningSelectFile": "Пожалуйста, выберите файл для импорта"
+    },
+    "loadingSpinner": {
+        "defaultText": "Загрузка..."
+    },
+    "common": {
+        "back": "Назад",
+        "details": "Детали",
+        "orConjunction": "или"
+    }
+}

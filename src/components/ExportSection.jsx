@@ -38,7 +38,7 @@ const ExportSection = () => {
         setExportLoading(true);
         try {
             const response = await apiService.exportConfig(selectedOrg, selectedQueues);
-            const filename = extractFilename(response.headers);
+            const filename = extractFilename(response);
 
             if (!filename) {
                 toast.error(t('toast.exportFilenameError'));

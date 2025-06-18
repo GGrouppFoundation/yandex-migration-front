@@ -16,7 +16,7 @@ const LoginScreen = ({ onLogin }) => {
             handleTokenExchange(token);
             window.history.replaceState({}, document.title, window.location.pathname + window.location.search);
         }
-    }, []);
+    });
 
     const handleTokenExchange = async (token) => {
         setLoading(true);
